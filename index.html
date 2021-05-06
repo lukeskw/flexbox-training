@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/twitter-logo.svg" type="image/x-icon">
+    <title>Twitter APP</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="wrapper">
+            <!--left div of the navbar with home, notifications and messages-->
+            <nav id="left-nav">
+                <ul>
+                    <a href="#">
+                    <li>
+                        <img src="images/twitter-home.svg" alt="Home" /> Home
+                    </li></a>
+                    
+                    <a ref="#"><li>
+                        <img src="images/twitter-alert.svg" alt="Notification" /> Notifications
+                    </li></a>
+                    <a ref="#"><li>
+                        <img src=" images/twitter-message.svg" alt="Messages" /> Messages
+                    </li>
+                    </a>
+                </ul>
+            </nav>
+
+            <!--center div of the navbar, with twitter logo-->
+            <div id="center-nav">
+                <img src="images/twitter-logo.svg" alt="logo-twitter " width="10% " />
+            </div>
+
+            <!--right div of the navbar, with search bar and profile buttom-->
+            <div id="right-nav">
+                <input type="text " placeholder="Search on Twitter" />
+                <img src="images/twitter-avatar.svg " alt="user-icon" />
+                <button>Tweet</button>
+            </div>
+        </div>
+    </header>
+
+    <!--Main Banner-->
+    <div class="banner">
+        <h1>Old Twitter design by Porfir.io</h1>
+    </div>
+
+    <div class="bar">
+        <div class="wrapper">
+            <!--Central stats-->
+            <ul>
+                <li class="active">
+                    <span>Tweets</span>
+                    <strong>2.533</strong>
+                    <span>tweets</span>
+                </li>
+                <li>
+                    <span>Followings</span>
+                    <strong>330</strong>
+                </li>
+                <li>
+                    <span>Followers</span>
+                    <strong>1420</strong>
+                </li>
+                <li>
+                    <span>Favorites</span>
+                    <strong>74</strong>
+                </li>
+                <li>
+                    <span>Moments</span>
+                    <strong>0</strong>
+                </li>
+            </ul>
+
+            <!--Action Buttons-->
+            <div class="actions">
+                <button>Edit Profile</button>
+                <img src="images/twitter-lists-2.svg" alt="more-items"/>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-body wrapper">
+            <aside class="profile-bar">
+                <img src="images/twitter-avatar.svg" alt="logo-user" width="200px" class="avatar" />
+                <h1>Luke</h1>
+                <span>@PorfirioLuke</span>
+                <p>No more living trapped inside<br>Developer.js | <a href="https://github.com/lukeskw" target="_blank">https://github.com/lukeskw</a></p>
+
+                <ul class="informations">
+                    <li>
+                        <img src="images/twitter-location.svg" alt="location-logo" />
+                        Rio de Janeiro, Brazil
+                    </li>
+                    <li>
+                        <img src="images/twitter-link.svg" alt="link-logo"/>
+                        https://github.com/lukeskw
+                    </li>
+                    <li>
+                        <img src="images/twitter-lock.svg" alt="lock-logo"/>
+                        Joined May 2011
+                    </li>
+                    <li>
+                        <img src="images/twitter-globe.svg" alt="globe-logo"/>
+                        Born the 3rd of September 1998
+                    </li>
+                </ul>
+
+                <div class="profile followers">
+                    <strong><img src="images/twitter-profile.svg" alt="profile-logo" />108 followers that you know </strong>
+
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="profile images">
+                    <strong><img src="images/twitter-image.svg" alt="images-logo" />18 Photos and Videos </strong>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="timeline">
+                <nav>
+                    <a href="#" class="active">Tweets</a>
+                    <a href="#">Tweets and Replies</a>
+                    <a href="#">Media</a>
+                </nav>
+
+                <ul class="tweets">
+                    <li>
+                        <div class="tweet-avatar"></div>
+                        <div class="info">
+                            <strong>Layza <span>@necropantsu</span><span>7h</span></strong>
+                            <p>Acho um absurdo que não encontro esse tipo de coisa na feirinha da Pavuna</p>
+                            <div class="tweet-actions">
+                                <a href="#"><img src="images/twitter-reply-outline.svg" alt="comments"></a>
+                                <a href="#"><img src="images/twitter-retweet.svg" alt="retweet"></a>
+                                <a href="#"><img src="images/twitter-like-outline.svg" alt="like"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <aside class="widgets">
+                <div class="card follow">
+                    <div class="title">
+                        <strong>Who to Follow</strong>
+                        <a href="#">Refresh</a>
+                        <a href="#">View all</a>
+                    </div>
+
+                    <ul>
+                        <li>
+                           <div class="profile">
+                                <div class="avatar"></div>
+                                <div class="name">
+                                    <strong>Jaque <span>@doritosvs2</span></strong>
+                                    <button>Follow</button>
+                                </div>
+                           </div>
+                           <a href="#">x</a>
+                        </li>
+                       
+                        <li>
+                           <div class="profile">
+                                <div class="avatar"></div>
+                                <div class="name">
+                                    <strong>Pedror <span>@ulthranatos</span></strong>
+                                    <button>Follow</button>
+                                </div>
+                           </div>
+                           <a href="#">x</a>
+                        </li>
+                       
+                        <li>
+                           <div class="profile">
+                                <div class="avatar"></div>
+                                <div class="name">
+                                    <strong>Rocketseat <span>@rocketseat</span></strong>
+                                    <button>Follow</button>
+                                </div>
+                           </div>
+                           <a href="#">x</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="card trends">
+                    <div class="title">
+                        <strong>Trends</strong>
+                        <a href="#">Change</a>
+                    </div>
+                    <div class="trending-topics">
+                        <ul>
+                            <li>
+                                <a href="#"><strong>#SportInfoDay</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#womenleaders</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#Chelsea</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#Zidane</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#Sony Music</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#Hazard</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#Werner</strong></a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>#Racing</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+    </div>
+
+</body>
+
+</html>
